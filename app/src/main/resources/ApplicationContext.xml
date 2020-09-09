@@ -71,7 +71,8 @@
         <!-- 数据源 -->
         <property name="dataSource" ref="dataSource"/>
     </bean>
-
+    <import resource="dubbo-provider.xml" ></import>
+    <import resource="dubbo-consumer.xml" ></import>
 
 </beans>
 

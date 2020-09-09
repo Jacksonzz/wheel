@@ -20,6 +20,7 @@ public class ConsumerServiceImpl implements ConsumerService {
 
     @Override
     public Consumer getConsumer(Consumer consumer) {
+
         return consumerMapper.queryConsumerInfo(consumer);
     }
 }
